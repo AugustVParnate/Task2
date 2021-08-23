@@ -43,6 +43,7 @@ public class Point {
 
     @Override
     public ArrayList<Point> getPoints() {
+
         return new ArrayList<>(Collections.singletonList(new Point(this)));
     }
 
