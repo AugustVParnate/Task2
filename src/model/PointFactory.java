@@ -2,7 +2,7 @@ package model;
 
 import java.util.List;
 
-public class PointFactory implements FigureFactory {
+public class PointFactory extends FigureFactory {
 
     public Point newInstance(double x, double y) {
         return new Point(x, y);

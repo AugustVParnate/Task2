@@ -7,7 +7,7 @@ import java.util.ArrayList;
 public class Figure {
     int getId();
 
-    ArrayList<Point> getPoints();
+    public ArrayList<Point> getPoints();
 
     default int getNumberOfPoints() {
         return getPoints().size();
