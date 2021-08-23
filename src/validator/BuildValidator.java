@@ -30,7 +30,6 @@ public class BuildValidator implements Validator {
             }
         }
 
-        //checking crossing of the lines
         return twoLinesSegmentsIntersect(points.get(0), points.get(1), points.get(2), points.get(3))
                 && twoLinesSegmentsIntersect(points.get(0), points.get(3), points.get(1), points.get(2));
     }

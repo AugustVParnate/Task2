@@ -5,6 +5,7 @@ import model.*;
 import javax.xml.validation.Validator;
 import java.com.epam.jwd.pyramid.action.exception.ArgumentException;
 import java.com.epam.jwd.pyramid.action.exception.BuildException;
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
