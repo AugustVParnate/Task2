@@ -32,6 +32,7 @@ public class Pyramid {
 
     @Override
     public int hashCode() {
+
         return Objects.hash(getPoints());
     }
 }

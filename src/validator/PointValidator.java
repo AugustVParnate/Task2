@@ -13,7 +13,6 @@ import java.util.regex.Pattern;
 public class PointValidator extends Validator {
     private static final String DOUBLE_REG_EX = "[-+]?[0-9]*\\.?[0-9]+";
 
-    @Override
     public Pattern getPattern() {
         return Pattern.compile(DOUBLE_REG_EX);
     }
